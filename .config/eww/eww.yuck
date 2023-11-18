@@ -20,7 +20,6 @@
 (include "modules/indicator.yuck")
 (include "modules/clock.yuck")
 (include "modules/recorder_menu.yuck")
-(include "modules/bg_widgets.yuck")
 
 (deflisten microphone :initial "0"
 "scripts/microphone.sh")
