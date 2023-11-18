@@ -1,6 +1,6 @@
 # Hyprland Dots
 
-![Shell script](https://img.shields.io/badge/python-0d1117?style=for-the-badge&logo=python&logoColor=white)
+![Shell script](https://img.shields.io/badge/Shell_Script-0d1117?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Linux Badge](https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=white)
 
 <img src="./img/demo.png" alt="Demo">
