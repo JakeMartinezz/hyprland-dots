@@ -27,7 +27,7 @@ To contribute follow these steps
 1. Fork the repositry
 2. Create a Branch: `git checkout -b main`
 3. Make the changes: `git commit -m 'Seu commit'`
-4. Push to the original branch: `git push origin shell-suse / local`
+4. Push to the original branch: `git push origin hyprland-dots / local`
 5. Make a pull.
 
 Alternatively, see the GitHub documentation at [how to create a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
