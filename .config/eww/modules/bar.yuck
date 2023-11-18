@@ -1,0 +1,18 @@
+(defwidget bar []
+    (box :class "bar-widget" :orientation "h" :space-evenly true
+
+        (box :orientation "h" :space-evenly false :halign "start"
+            (logo)
+            (workspaces)
+        )
+
+        (box :orientation "h" :space-evenly false :halign "center"
+        )
+
+        (box :orientation "h" :space-evenly false :halign "end"
+            (indicator)
+        )
+
+    )
+    
+)

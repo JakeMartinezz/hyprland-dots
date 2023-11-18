@@ -1,0 +1,14 @@
+(defwidget volume_scale2 []
+    (overlay :hexpand true
+        (scale :min 0 :max 100 :active {microphone != "muted"} :value {microphone == "muted" ? 0 : microphone} :onchange "pamixer --default-source --set-volume {}" :class "volume-scale2")
+        (label :class 'volume-icon ${microphone == "muted" ? "less" : microphone < 5 ? "less" : "more"}' :halign "start" :text {microphone == "muted" ? "" : microphone < 33 ? "" : microphone < 67 ? "" : ""})
+    )
+)
+
+(defwidget volume_control_center2 []
+    (box :orientation "h" :class "volume-control-center2" :space-evenly false
+        (volume_scale2)
+        (button :class "volume-mute ${microphone == 'muted' ? 'active' : ''}" :onclick "pamixer --default-source -t" "󰝟")
+        (button :class "volume-arrow" :onclick "scripts/toggle_control_center.sh close && pavucontrol &" "󰅂")
+    )
+)

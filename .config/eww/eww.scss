@@ -1,0 +1,25 @@
+* {
+    all: unset;
+    font-family: FiraCode;
+    font-weight: bold;
+}
+@import "scripts/colors/colors.scss";
+@import "scss/lib.scss";
+
+@import "scss/bar.scss";
+@import "scss/powermenu.scss";
+
+@import "scss/control_center.scss";
+@import "scss/notifications_popup.scss";
+
+@import "scss/clock.scss";
+@import "scss/logo.scss";
+@import "scss/quick_settings.scss";
+@import "scss/user.scss";
+@import "scss/volume.scss";
+@import "scss/microphone.scss";
+@import "scss/workspaces.scss";
+@import "scss/music.scss";
+@import "scss/indicator.scss";
+@import "scss/notifications.scss";
+@import "scss/recorder_menu.scss";
